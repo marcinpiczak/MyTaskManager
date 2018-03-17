@@ -11,6 +11,7 @@ namespace Tasks
             var colorOld = Console.ForegroundColor;
             Console.ForegroundColor = color;
             if (args != null) Console.WriteLine(message, args);
+            else Console.WriteLine(message);
             Console.ForegroundColor = colorOld;
         }
 
@@ -19,6 +20,7 @@ namespace Tasks
             var colorOld = Console.ForegroundColor;
             Console.ForegroundColor = color;
             if (args != null) Console.Write(message, args);
+            else Console.Write(message);
             Console.ForegroundColor = colorOld;
         }
     }
