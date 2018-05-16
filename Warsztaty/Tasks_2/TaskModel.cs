@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Tasks
+namespace Tasks_2
 {
     public class TaskModel
     {
@@ -31,7 +31,7 @@ namespace Tasks
             }
             else
             {
-                EndDate = endDate;
+                EndDate = null;
                 IsAllDayTask = true;
             }
 
@@ -39,11 +39,3 @@ namespace Tasks
         }
     }
 }
-
-/*
-    Opis - Wymagany.
-    Datę Rozpoczęcia - Wymagana.
-    Datę Zakończenia - Niewymagana, jeśli zadanie jest całodniowe.
-    Flaga Zadanie Całodniowe - Niewymagana, domyślnie zadanie nie jest całodniowe.
-    Flagę Zadanie Ważne - Niewymagana, domyślnie zadanie nie jest ważne.
- */
