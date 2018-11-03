@@ -11,7 +11,7 @@ namespace Tasks_2
     {
         private List<TaskModel> _taskList = new List<TaskModel>();
 
-        public const string DefultPath = "data.csv";
+        public const string DefultPath = @"..\..\..\data.csv";
 
         public int ListCount
         {

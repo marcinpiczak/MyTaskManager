@@ -31,7 +31,7 @@ namespace Tasks_2
                 ConsoleEx.Write(Console.ForegroundColor, "      3. Wyświetlenie listy zadań - ".PadRight(40)); ConsoleEx.WriteLine(ConsoleColor.Green, "show");
                 ConsoleEx.Write(Console.ForegroundColor, "      4. Wyszukiwanie zadań - ".PadRight(40)); ConsoleEx.WriteLine(ConsoleColor.Green, "filter");
                 ConsoleEx.Write(Console.ForegroundColor, "      5. Zapisanie zadań do pliku - ".PadRight(40)); ConsoleEx.WriteLine(ConsoleColor.Green, "save");
-                ConsoleEx.Write(Console.ForegroundColor, "      6. Wczytanie zadań z pliku - ".PadRight(40)); ConsoleEx.WriteLine(ConsoleColor.Green, "filter");
+                ConsoleEx.Write(Console.ForegroundColor, "      6. Wczytanie zadań z pliku - ".PadRight(40)); ConsoleEx.WriteLine(ConsoleColor.Green, "load");
                 ConsoleEx.Write(Console.ForegroundColor, "      7. Wyjście - ".PadRight(40)); ConsoleEx.WriteLine(ConsoleColor.Green, "exit");
                 Console.WriteLine();
 
