@@ -2,6 +2,9 @@
 
 MyTaskManager jest aplikacją konsolową wspierającą zarządzanie zadaniami.
 
+### Technologie
+C#, LINQ
+
 ## Przykładowe dane:
 
 Przykładowe dane znajdujące się w pliku data.csv zawierają zestaw zadań i wczytywane są automatycznie przy uruchomieniu aplikcji
@@ -22,6 +25,6 @@ Moduł pozwala na dodanie, usuwanie, wyszukiwanie i wyświetlanie listy zadań. 
 
 ## Korzystanie z aplikacji:
 
-Do skorzystania z aplikacji użytkownicy nie potrzebują żadnych specjalnych uprawnień. Wszyscy uzytkownicy od razu po uruchomieniu aplikacji posiadają dostęp do wszystkich modułów. Aplikacja od razu po uruchomieniu wczytuje zadania z domyslnie zdefiniowanego pliku i wyświetla zbliżające się zadania - na następne 3 dni.
+Do skorzystania z aplikacji użytkownicy nie potrzebują żadnych specjalnych uprawnień. Wszyscy uzytkownicy od razu po uruchomieniu aplikacji posiadają dostęp do wszystkich modułów. Aplikacja od razu po uruchomieniu wczytuje zadania z domyślnie zdefiniowanego pliku i wyświetla zbliżające się zadania - na następne 3 dni.
 
 ##### cdn.

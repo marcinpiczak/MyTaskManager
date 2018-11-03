@@ -4,6 +4,9 @@
 
 MyTaskManager is a console application to manage tasklist.
 
+### Technologies
+C#, LINQ
+
 ## Sample data:
 
 Sample data saved in data.csv contains several tasks which are loaded after application start.
